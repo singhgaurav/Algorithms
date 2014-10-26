@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/singhgaurav/mathutil"
+)
 
 func main() {
-	fmt.Printf("hello, world\n")
+	fmt.Printf("Hello, World. Sqrt(2) :  %v\n", mathutil.Sqrt(2))
 }
